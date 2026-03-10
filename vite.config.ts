@@ -1,5 +1,5 @@
-import vue from '@vitejs/plugin-vue';
 import fs from 'node:fs';
+import vue from '@vitejs/plugin-vue';
 import { defineConfig } from 'vite';
 import electron from 'vite-plugin-electron/simple';
 import pkg from './package.json';

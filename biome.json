@@ -26,5 +26,14 @@
         "formatter": {
             "quoteStyle": "single"
         }
-    }
+    },
+    "overrides": [
+        {
+            "includes": ["**/*.vue"],
+            "formatter": {
+                "indentStyle": "space",
+                "indentWidth": 4
+            }
+        }
+    ]
 }
