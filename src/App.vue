@@ -16,13 +16,5 @@ function getPath(hash: string) {
 </script>
 
 <template>
-    <nav>
-        <a href="#/">Home</a>
-        |
-        <a href="#/about">About</a>
-        |
-        <a href="#/non-existent-path-2">Broken Link</a>
-    </nav>
-
     <component :is="currentView" />
 </template>

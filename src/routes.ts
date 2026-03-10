@@ -1,10 +1,8 @@
-import About from './components/About.vue';
-import Home from './components/Home.vue';
+import Explanatory from './components/Explanatory.vue';
 import NotFound from './components/NotFound.vue';
 
 const routes = {
-    '/': Home,
-    '/about': About,
+    '/': Explanatory,
 } as const;
 
 export function getView(path: string) {
