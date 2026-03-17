@@ -1,6 +1,6 @@
 # Boilerplate
 
-Based on [Electron⚡️Vite](https://github.com/electron-vite)
+Based on [Electron + Vite + Vue boilerplate](https://github.com/electron-vite/electron-vite-vue)
 
 ## Quick Setup
 
